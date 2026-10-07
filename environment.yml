@@ -1,0 +1,22 @@
+﻿name: sih_srm
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - pytorch-cuda=11.8
+  - gdal
+  - rasterio
+  - geopandas
+  - pystac-client
+  - planetary-computer
+  - h5py
+  - albumentations
+  - streamlit
+  - pip
+  - pip:
+    - timm
+    - torchgeo
+    - wandb

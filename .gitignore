@@ -1,0 +1,16 @@
+﻿# Exclude datasets and large files
+data/
+outputs/
+checkpoints/
+*.tif
+*.tiff
+*.h5
+*.pth
+*.onnx
+
+# Python & Environment exclusions
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
