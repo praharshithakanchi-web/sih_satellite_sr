@@ -1,22 +1,17 @@
 ﻿name: sih_srm
 channels:
   - conda-forge
-  - pytorch
+  - defaults
 dependencies:
   - python=3.10
-  - pytorch
-  - torchvision
-  - pytorch-cuda=11.8
-  - gdal
-  - rasterio
-  - geopandas
-  - pystac-client
-  - planetary-computer
-  - h5py
-  - albumentations
-  - streamlit
   - pip
+  - h5py
+  - numpy
+  - requests
   - pip:
-    - timm
-    - torchgeo
-    - wandb
+    - torch==2.1.2+cpu
+    - torchvision==0.16.2+cpu
+    - --index-url https://download.pytorch.org/whl/cpu
+    - h5py
+    - numpy
+    - requests
